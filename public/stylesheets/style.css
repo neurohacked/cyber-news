@@ -8142,3 +8142,12 @@ button.close {
   margin: 0;
   overflow: visible;
   clip: auto; }
+
+.notes {
+  margin-top: 25%; }
+
+i:hover {
+  cursor: pointer; }
+
+.form-control {
+  margin: 10px 0; }
