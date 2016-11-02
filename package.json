@@ -2,10 +2,9 @@
   "name": "cyber-news",
   "version": "1.0.0",
   "description": "A cyberpunk news network.",
-  "main": "server.js",
+  "main": "./bin/www",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
   "repository": {
     "url": "git@github.com:neurohacked/cyber-news.git",
@@ -16,11 +15,21 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "cheerio": "^0.22.0",
+    "debug": "^2.2.0",
     "es6-module-loader": "^0.17.11",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
+    "hbs": "^4.0.1",
     "mongoose": "^4.6.5",
     "morgan": "^1.7.0",
-    "request": "^2.76.0"
+    "request": "^2.76.0",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-bower": "0.0.13",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2"
   }
 }
