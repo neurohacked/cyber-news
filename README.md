@@ -1,2 +1,7 @@
 # cyber-news
-A cyberpunk news network.
+A cyberpunk news aggregator.
+
+---
+
+Live:
+https://cybernews.herokuapp.com/
