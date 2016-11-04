@@ -1,4 +1,4 @@
-# cyber-news
+# Cyber News
 A cyberpunk news aggregator.
 
 ---
